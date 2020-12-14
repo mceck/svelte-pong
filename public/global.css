@@ -1,0 +1,46 @@
+html,
+body {
+  position: relative;
+  font-family: sans-serif;
+  color: #ffffff;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+main {
+  background-color: #44205c;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.wnd {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 18px;
+  height: 18px;
+  background-color: #212121;
+  border: 1px solid #6e6e6e;
+}
+
+.box.ball {
+  background-color: #00ff00;
+}
+
+.box.player {
+  background-color: #e2e2b4;
+}
